@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rectangle Calculator</title>
+</head>
+<body>
+  <h2>Rectangle Calculator</h2>
+  <form action="http://www.abelski.com/courses/xhtml/calcrectangle.php" method="GET">
+    <label for="width">Width:</label>
+    <input type="text" id="width" name="width" required><br><br>
+    <label for="height">Height:</label>
+    <input type="text" id="height" name="height" required><br><br>
+    <input type="submit" value="Calculate">
+  </form>
+</body>
+</html>
