@@ -1,3 +1,5 @@
+<!-- first calc -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +13,24 @@
     <label for="height">Height:</label>
     <input type="text" id="height" name="height" required><br><br>
     <input type="submit" value="Calculate">
+  </form>
+</body>
+</html>
+
+<!-- BMI clac -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BMI Calculator</title>
+</head>
+<body>
+  <h2>BMI Calculator</h2>
+  <form action="http://www.abelski.com/courses/xhtml/bmi.php" method="GET">
+    <label for="weight">Weight (kg):</label>
+    <input type="text" id="weight" name="weight" required><br><br>
+    <label for="height">Height (m):</label>
+    <input type="text" id="height" name="height" required><br><br>
+    <input type="submit" value="Calculate BMI">
   </form>
 </body>
 </html>
